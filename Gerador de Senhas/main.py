@@ -14,7 +14,7 @@ def generate_random_password(length, use_letters, use_numbers, use_symbols):
     return password
 
 if __name__ == "__main__":
-    length = int(input("Digite o comprimento da senha: "))
+    length = int(input("Insira o comprimento da senha: "))
     use_letters = input("Usar letras? (sim/não): ") == 'sim'
     use_numbers = input("Usar números? (sim/não): ") == 'sim'
     use_symbols = input("Usar símbolos? (sim/não): ") == 'sim'
