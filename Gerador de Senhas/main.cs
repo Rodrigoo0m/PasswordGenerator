@@ -22,7 +22,7 @@ public class PasswordGenerator {
     }
 
     public static void Main(string[] args) {
-        Console.Write("Digite o comprimento da senha: ");
+        Console.Write("insira o comprimento da senha: ");
         int length = Int32.Parse(Console.ReadLine());
         Console.Write("Usar letras? (Verdadeiro/Falso): ");
         bool useLetters = Boolean.Parse(Console.ReadLine());
