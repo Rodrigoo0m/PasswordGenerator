@@ -29,7 +29,7 @@ void generateRandomPassword(int length, int useLetters, int useNumbers, int useS
 int main() {
     int length, useLetters, useNumbers, useSymbols;
 
-    printf("Digite o comprimento da senha: ");
+    printf("insira o comprimento da senha: ");
     scanf("%d", &length);
     printf("Usar letras? (0 para não, 1 para sim): ");
     scanf("%d", &useLetters);
